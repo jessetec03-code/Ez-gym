@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easy Move - Produtos e Serviços</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Barra Superior de Acessibilidade -->
+  <div class="barra-acessibilidade">
+    <span>Plataforma Acessível 60+ | Easy Move</span>
+  </div>
+
+  <!-- Cabeçalho Principal e Menu -->
+  <header class="cabecalho-principal">
+    <div class="container-menu">
+      <a href="index.html" class="logo-header">
+        <img src="Logo E.png" alt="Logo Easy Move" style="height: 45px; width: auto;">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html" style="background-color: var(--verde-escuro); color: var(--branco);">Produtos e Serviços</a></li>
+          <li><a href="sobre.html">Sobre nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal (Busca de Aulas) -->
+  <main>
+    <section class="secao">
+      <h1 class="titulo-pagina">Produtos e Serviços</h1>
+      
+      <div class="caixa-busca-aulas">
+        <h2 style="color: var(--verde-escuro); text-align: center; margin-bottom: 20px;">Encontre aulas</h2>
+
+        <form onsubmit="event.preventDefault(); alert('Busca simulada com sucesso!');">
+          <div class="grupo-campo">
+            <label>Privada ou Pública?</label>
+            <select>
+              <option>Rede Pública / Comunitária</option>
+              <option>Particular / Personalizada</option>
+            </select>
+          </div>
+
+          <div class="grupo-campo">
+            <label>Onde?</label>
+            <input type="text" placeholder="Ex: Em casa ou Centro Comunitário">
+          </div>
+
+          <div class="grupo-campo">
+            <label>Quando?</label>
+            <input type="text" placeholder="Ex: Segundas e Quartas">
+          </div>
+
+          <div class="grupo-campo">
+            <label>Modalidade? (Opções possíveis)</label>
+            <select>
+              <option>Exercícios de Equilíbrio e Quedas</option>
+              <option>Fortalecimento Muscular</option>
+              <option>Aulas Coletivas em Grupo</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn-acao">Confirmar !</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2026 Easy Move - Projeto Académico</p>
+  </footer>
+
+</body>
+</html>
